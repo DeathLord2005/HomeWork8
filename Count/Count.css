@@ -1,0 +1,47 @@
+.background {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: fit-content;
+    background-color: white;
+}
+
+.decrease--button {
+    display: flex;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.increase--button {
+    display: flex;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.counted--number {
+    display: flex;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.decrease--button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.increase--button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}

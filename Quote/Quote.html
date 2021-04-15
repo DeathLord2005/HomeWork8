@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./Quote.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<body>
+    <div class="quote--background">
+        <div class="quote--background__left"><img src="http://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max" alt="">
+            <div class="head--quote__title"><span><i class="material-icons">cloud</i></span>
+                <span><b>DAILY QUOTES</b></span>
+            </div>
+            <div class="quote--main">
+                <p id="quote"></p>
+            </div>
+            <div class="quote--sign">
+                <span><i class="glyphicon glyphicon-user"></i></span>
+                <span id="author"></span>
+            </div>
+        </div>
+        <div class="quote--background__right"><img src="https://cdn3.vectorstock.com/i/1000x1000/99/07/big-moon-on-night-sky-background-vector-20399907.jpg" alt=""></div>
+    </div>
+    <div class="quote--last">
+        <div class="button" onclick="changeQuote()">GET DAILY QUOTES</div>
+        <div class="shareOn">
+            <span style="color: white;">SHARE ON</span>
+            <span style="color: white;"><i class="fa fa-facebook"></i></span>
+            <span style="color: white;"><i class="fa fa-twitter"></i></span>
+        </div>
+        <div class="share">
+            <span style="color: white;"><i class="fas fa-heart"></i></span>
+            <span style="color: white;">SHARED 261 TIMES</span>
+        </div>
+    </div>
+    <script src="./Quote.js"></script>
+</body>
+
+</html>

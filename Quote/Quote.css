@@ -1,0 +1,97 @@
+.quote--background {
+    display: flex;
+    width: 84%;
+    margin: 55px 95px 0px 55px;
+    height: 500px;
+    box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 1);
+    flex-direction: row;
+}
+
+.quote--background__left {
+    width: 50%;
+    display: flex;
+    position: relative;
+    box-sizing: cover;
+}
+
+.head--quote__title {
+    color: #14152f;
+    display: flex;
+    align-items: left;
+    flex-direction: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.quote--main {
+    color: #14152f;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    width: 30%;
+    padding: 30px 0px;
+    bottom: 250px;
+    position: absolute;
+    transform: scale(2);
+    right: 50%;
+}
+
+.quote--sign {
+    color: #14152f;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 230px;
+    transform: scale(1.5);
+}
+
+.quote--background__right {
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+.quote--last {
+    width: 84%;
+    margin: 0px 55px;
+    height: 50px;
+    border: 1px solid purple;
+    background-color: purple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 180px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    position: relative;
+    right: 10%;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
+}
+
+.shareOn {
+    position: relative;
+    right: 1%;
+}
+
+.share {
+    position: relative;
+    left: 10%;
+}
